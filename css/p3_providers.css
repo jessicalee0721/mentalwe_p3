@@ -1,0 +1,38 @@
+@import "gobal_setting.css";
+
+.p3_providers--container{
+  max-width: 900px;
+  margin: 88px auto;
+}
+
+.p3_providers--title h5{
+  margin: 12px 0px;
+}
+
+.p3_providers--title .subtitle1{
+  color: var(--primary-600);
+}
+
+.p3_providers--title .body2{
+  color: var(--gray-600);
+}
+
+.p3_providers--description{
+  margin: 44px 0px 24px 0px;
+}
+
+.p3_providers--expertise{
+  margin-bottom: 36px;
+  display: flex;
+  color: var(--gray-600);
+}
+
+.p3_providers--expertise p{
+  margin-right: 8px;
+}
+
+.p3_providers--motto{
+  padding: 36px 48px;
+  background-color: var(--primary-100);
+  border-radius: 0px 36px;
+}

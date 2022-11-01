@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap">
+
+    <link rel="stylesheet" href="../css/gobal_setting.css">
+    <link rel="stylesheet" href="../css/gobal_component.css">
+    <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/p3_search.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title></title>
+  </head>
+
+  <body class="bg-white">
+    <!-- header -->
+    <div class="header body2">
+      <div class="header--container">
+        <div class="header--left-wrap">
+          <a href="https://apps.mentalwe.com/"><img src="../img/logo_desktop.svg"></a>
+          <ul class="navbar-nav">
+            <li class="nav-item nav--right-border">
+              <a href="https://apps.mentalwe.com/knowledge">找知識</a>
+            </li>
+            <li class="nav-item nav--right-border">
+              <a href="https://apps.mentalwe.com/passbook">健康存摺</a>
+            </li>
+            <li class="nav-item nav--right-border">
+              <a href="p3_index.html">一對一課程</a>
+            </li>
+            <li class="nav-item nav--right-border">
+              <a href="https://shop.mentalwe.com/">心保商城</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  d-flex align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p>下載專區</p>
+              </a>
+              <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://apps.mentalwe.com/download">下載心保APP</a>
+                <a class="dropdown-item" href="https://www.mentalwe.com/news/%E9%9A%A8%E6%99%82%E9%9A%A8%E5%9C%B0%E5%B9%AB%E6%82%A8%E6%94%BE%E9%AC%86%E7%B4%93%E5%A3%93%EF%BC%9A%E3%80%8C%E5%91%BC%E5%90%B8%E6%B2%B3%E8%B1%9A%E3%80%8Dapp%E4%B8%8A%E7%B7%9A%E5%9B%89%EF%BC%81/">下載呼吸河豚</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="header--right-wrap">
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  d-flex align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p style="margin-right: 8px;">Hi, user001</p>
+                <img style="margin-right: 8px;" src="../img/header-avatar.png" alt="">
+              </a>
+              <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">帳號資訊</a>
+                <a class="dropdown-item dropdown-top-border" href="#">我的訂購</a>
+                <a class="dropdown-item" href="#">付款資訊</a>
+                <a class="dropdown-item" href="#">訂閱方案</a>
+                <a class="dropdown-item dropdown-top-border" href="#">登出</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- breadcrumb -->
+    <nav>
+      <ol class="breadcrumb body2">
+        <li class="breadcrumb-item"><a href="../p3_index.html">一對一課程專區</a></li>
+        <li class="breadcrumb-item active" aria-current="page">一對一課程</li>
+      </ol>
+    </nav>
+
+    <!-- title -->
+    <div class="container">
+      <div class="title">
+        <img src="../img/p3/p3_search_search.svg" alt="">
+        <h6>搜尋適合您的一對一課程</h6>
+      </div>
+    </div>
+
+    <!-- filters -->
+    <div class="container">
+      <table class="expert-list--filters">
+        <tbody>
+          <tr class="filter-item--row">
+            <th class="filter-item--head button-text">
+              <div class="d-flex align-items-center justify-content-center">
+                課程主題（可複選）
+              </div>
+            </th>
+            <td class="filter-item--cell body2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">全部類別</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">個人成長</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">情緒管理</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="filter-item--head button-text">
+              <div class="d-flex align-items-center justify-content-center">
+                課程方式
+              </div>
+            </th>
+            <td class="filter-item--cell body2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                <label class="form-check-label" for="inlineCheckbox4">不限</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                <label class="form-check-label" for="inlineCheckbox5">面對面</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                <label class="form-check-label" for="inlineCheckbox6">遠距視訊</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="filter-item--head button-text">
+              <div class="d-flex align-items-center justify-content-center">
+                課程日期
+              </div>
+            </th>
+            <td class="filter-item--cell body2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+                <label class="form-check-label" for="inlineCheckbox7">近兩天可預約</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8">
+                <label class="form-check-label" for="inlineCheckbox8">指定時間：<img src="../img/p3_search_calendar.svg" alt=""> 請選擇日期</label>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="filter-button d-flex align-items-center">
+        <img src="../img/p3/p3_search_add.svg" alt="">
+        <label for="">新增更多條件</label>
+      </div>
+      <div>
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <button type="button" class="btn btn-primary button-text">立即搜尋</button>
+          <button type="button" class="btn btn-link body2 mt-2 mb-4">重新設定篩選條件</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <!-- result -->
+    <div class="container my-5">
+      <div class="row d-flex justify-content-between mb-5">
+        <div class="col d-flex align-items-end">
+          <p class="body2">搜尋結果：</p>
+          <p class="subtitle1">6件</p>
+        </div>
+        <div class="col-2">
+          <div class="cost-filter--button">
+            <img src="../img/p3/p3_search_filter-list.svg" alt="">
+            <p class="caption-text">價格由低到高</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="p3_course--wrap">
+            <a href="../html/p3_course.html">
+              <div class="p3_course--inner-top">
+                <div class="p3_course--cover">
+                  <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                </div>
+                <div class="p3_course--tag">
+                  <div class="p3_course--tag-item">
+                    <p class="body2">身心放鬆</p>
+                  </div>
+                  <div href="#" class="p3_course--tag-item">
+                    <p class="body2">睡眠服務</p>
+                  </div>
+                  <div href="#" class="p3_course--tag-item">
+                    <p class="body2">行為管理</p>
+                  </div>
+                </div>
+                <div class="p3_course--title">
+                  <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                </div>
+                <div class="p3_course--content">
+                  <p class="body2">近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。</p>
+                </div>
+              </div>
+            </a>
+            <div class="p3_course--inner-bottom">
+              <a href="../html/p3_providers.html" class="p3_course--providers">
+                <div class="p3_course--providers-icon">
+                  <img src="../img/p3/test_providers-img-01.png" alt="">
+                </div>
+                <div class="p3_course--providers-name">
+                  <p class="body2">吳家碩 臨床心理師</p>
+                </div>
+              </a>
+              <div class="p3_course--cost">
+                <p class="body2">NT$1500 /堂</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer--top-wrap">
+        <div class="row desktop">
+          <div class="col">
+            <div class="footer--nav-item-title">
+              <img src="../img/footer_nav-item.svg" alt="">
+              <p class="button-text">關於心保</p>
+            </div>
+            <div class="footer--nav-item-list body2">
+              <a class="footer--nav-item" href="#">心保官方網頁</a>
+              <a class="footer--nav-item" href="#">心保故事</a>
+              <a class="footer--nav-item" href="#">合作夥伴</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer--nav-item-title">
+              <img src="../img/footer_nav-item.svg" alt="">
+              <p class="button-text">知識地圖</p>
+            </div>
+            <div class="footer--nav-item-list body2">
+              <a class="footer--nav-item" href="#">活動一覽</a>
+              <a class="footer--nav-item" href="#">主題課程</a>
+              <a class="footer--nav-item" href="#">影音課程</a>
+              <a class="footer--nav-item" href="#">精選文章</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer--nav-item-title">
+              <img src="../img/footer_nav-item.svg" alt="">
+              <p class="button-text">健康存摺</p>
+            </div>
+            <div class="footer--nav-item-list body2">
+              <a class="footer--nav-item" href="#">長期追蹤量表</a>
+              <a class="footer--nav-item" href="#">腕錶數據</a>
+              <a class="footer--nav-item" href="#">體重管理</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer--nav-item-title">
+              <img src="../img/footer_nav-item.svg" alt="">
+              <p class="button-text">一對一課程</p>
+            </div>
+            <div class="footer--nav-item-list body2">
+              <a class="footer--nav-item" href="#">一對一課程主頁</a>
+              <a class="footer--nav-item" href="#">預約一對一課程</a>
+              <a class="footer--nav-item" href="#">課程預約管理</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer--nav-item-title">
+              <img src="../img/footer_nav-item.svg" alt="">
+              <p class="button-text">其他</p>
+            </div>
+            <div class="footer--nav-item-list body2">
+              <a class="footer--nav-item" href="#">智慧保姆專屬方案</a>
+              <a class="footer--nav-item" href="#">購物商城</a>
+              <a class="footer--nav-item" href="#">下載呼吸河豚</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer--link">
+          <div class="footer--soical-link">
+            <a href="https://www.facebook.com/MentalWe/" target="_blank"><img src="../img/logo-facebook.svg"></a>
+            <a href="https://www.instagram.com/mentalwe/" target="_blank"><img src="../img/logo-ins.svg"></a>
+            <a href="https://www.youtube.com/channel/UCsNMiEfii04BMh4YEAasYUw" target="_blank"><img src="../img/logo-youtube.svg"></a>
+            <a href="https://line.me/R/ti/p/%40721vyvqx" target="_blank"><img src="../img/logo-LINE.svg"></a>
+          </div>
+          <div class="footer--download">
+            <p class="caption-text">立即下載「心保 MentalWe」體驗更多內容</p>
+            <div class="d-flex">
+              <a href="https://apps.apple.com/tw/app/%E5%BF%83%E4%BF%9Dmentalwe/id1547771315" target="_blank"><img src="../img/App_Store.svg"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.mentalwe.mentalwe&hl=zh_TW&gl=US" target="_blank"><img src="../img/Google_Play.svg"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer--info">
+          <div>
+            <img src="../img/logo_footer_white.svg" alt="">
+          </div>
+          <div class="d-flex">
+            <div class="d-flex caption-text" style="margin-right:24px;">
+              <p style="margin-right:24px;">台北辦公室</p>
+              <div>
+                <p>地址：10461 台灣台北市中山區中山北路三段45號8樓</p>
+                <p>營運時間：週一至週五 09:00~18:00</p>
+                <p>電話：02-25997993</p>
+              </div>
+            </div>
+            <div class="d-flex caption-text">
+              <p style="margin-right:24px;">台中辦公室</p>
+              <div>
+                <p>地址： 40308 台灣台中市西區台灣大道二段285號7樓之1</p>
+                <p>營運時間：週一至週五 09:00~18:00</p>
+                <p>電話：04-23215997</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer--bottom-wrap">
+        <p class="body2">心保股份有限公司 版權所有 Copyright © 2022 Mental Healthcare Co., Ltd. All Rights Reserved.</p>
+        <a class="footer--bottom-link body2" href="https://apps.mentalwe.com/service" target="_blank">服務條款</a>
+        <a class="footer--bottom-link body2" href="https://apps.mentalwe.com/privacy" target="_blank">隱私權政策</a>
+      </div>
+    </div>
+
+  </body>
+
+</html>

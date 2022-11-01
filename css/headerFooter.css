@@ -1,0 +1,159 @@
+@import "gobal_setting.css";
+
+/*header*/
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+}
+
+.header--container{
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--left-wrap{
+  display: flex;
+}
+
+.header--right-wrap{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header--left-wrap img{
+  margin-right: 44px;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item{
+  max-height: 28px;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px;
+  padding: 0px 20px;
+}
+
+.nav-item a:hover, .nav-link:hover{
+  color: var(--gray-500);
+}
+
+.nav-item a{
+  color: var(--gray-600);
+}
+
+.nav--right-border{
+  border-right: 1px solid var(--gray-200);
+}
+
+/*footer*/
+
+.footer{
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #272727;
+}
+
+.footer--top-wrap{
+  width: 100%;
+  max-width: 1280px !important;
+  padding: 64px 24px 24px 24px;
+}
+
+.footer--nav-item-title{
+  display: flex;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  margin-right: 36px;
+  border-bottom: 0.5px dashed #FFFFFF;
+}
+
+.footer--nav-item-title img{
+  margin-right: 12px;
+}
+
+.footer--nav-item-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer--nav-item{
+  color: white !important;
+  margin-bottom: 12px;
+}
+
+.footer--link{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 88px;
+}
+
+.footer--soical-link{
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer--soical-link img{
+  height: 28px;
+  width: 28px;
+}
+
+.footer--soical-link a{
+  margin-right: 12px;
+}
+
+.footer--nav-item:hover, .footer--soical-link a:hover, .footer--download a:hover{
+  opacity: 80%;
+}
+
+.footer--download{
+  text-align: right;
+}
+
+.footer--download p{
+  margin-bottom: 12px;
+}
+
+.footer--download a{
+  margin-left: 8px;
+}
+
+.footer--info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 0.5px solid var(--gray-500);
+}
+
+.footer--bottom-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-900);
+  padding: 12px 24px;
+}
+
+.footer--bottom-wrap p, .footer--bottom-wrap a{
+  margin-right: 24px;
+}
+
+.footer--bottom-link{
+  color: var(--primary-400);
+}
+
+.footer--bottom-link:hover{
+  color: var(--primary-500);
+}

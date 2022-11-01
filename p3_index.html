@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap">
+
+    <link rel="stylesheet" href="css/gobal_setting.css">
+    <link rel="stylesheet" href="css/gobal_component.css">
+    <link rel="stylesheet" href="css/headerFooter.css">
+    <link rel="stylesheet" href="css/p3_index.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header body2">
+        <div class="header--container">
+            <div class="header--left-wrap">
+                <a href="https://apps.mentalwe.com/"><img src="img/logo_desktop.svg"></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item nav--right-border">
+                        <a href="https://apps.mentalwe.com/knowledge">找知識</a>
+                    </li>
+                    <li class="nav-item nav--right-border">
+                        <a href="https://apps.mentalwe.com/passbook">健康存摺</a>
+                    </li>
+                    <li class="nav-item nav--right-border">
+                        <a href="p3_index.html">一對一課程</a>
+                    </li>
+                    <li class="nav-item nav--right-border">
+                        <a href="https://shop.mentalwe.com/">心保商城</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  d-flex align-items-center" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <p>下載專區</p>
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://apps.mentalwe.com/download">下載心保APP</a>
+                            <a class="dropdown-item"
+                                href="https://www.mentalwe.com/news/%E9%9A%A8%E6%99%82%E9%9A%A8%E5%9C%B0%E5%B9%AB%E6%82%A8%E6%94%BE%E9%AC%86%E7%B4%93%E5%A3%93%EF%BC%9A%E3%80%8C%E5%91%BC%E5%90%B8%E6%B2%B3%E8%B1%9A%E3%80%8Dapp%E4%B8%8A%E7%B7%9A%E5%9B%89%EF%BC%81/">下載呼吸河豚</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header--right-wrap">
+                <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  d-flex align-items-center" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <p style="margin-right: 8px;">Hi, user001</p>
+                            <img style="margin-right: 8px;" src="img/header-avatar.png" alt="">
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">帳號資訊</a>
+                            <a class="dropdown-item dropdown-top-border" href="#">我的訂購</a>
+                            <a class="dropdown-item" href="#">付款資訊</a>
+                            <a class="dropdown-item" href="#">訂閱方案</a>
+                            <a class="dropdown-item dropdown-top-border" href="#">登出</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner--background">
+            <div class="banner--title-area">
+                <p class="banner--title">心保一對一專區</p>
+                <p class="banner--caption">隨時與心理師單獨談談您的擔憂和焦慮</p>
+                <div class="banner--divider">
+                    <div class="banner--divider-deco"></div>
+                </div>
+                <div class="banner--link">
+                    <a href="html/p3_search.html"><img src="img/p3/index/replacer.png" alt=""> 立即預約一對一課程 ></a>
+                </div>
+                <div class="banner--link">
+                    <a href=""><img src="img/p3/index/replacer.png" alt="">管理我的預約行程 ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- courses -->
+    <div class="courses">
+        <div class="content-wrapper">
+            <div class="courses--header">
+                <div class="courses--title-area">
+                    <p class="courses--title">最新一對一課程</p>
+                    <p class="courses--caption">心保推出全新的「心保一對一課程」，一個「以學習為導向」的心理服務，教您「技巧性」地處理自己的生活困難、「循序漸進」解決自己的困擾。</p>
+                </div>
+                <a class="courses--header-link" href="">查看全部課程<img src="img/p3/index/replacer.png" alt=""></a>
+            </div>
+            <div class="courses--body">
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses--item">
+                    <div class="p3_course--wrap">
+                        <div class="p3_course--inner-top">
+                            <div class="p3_course--cover">
+                                <img class="p3_course--cover-img" src="../img/p3/test_cover-img-01.png" alt="">
+                            </div>
+                            <div class="p3_course--tag">
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">身心放鬆</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">睡眠服務</p>
+                                </a>
+                                <a href="#" class="p3_course--tag-item">
+                                    <p class="body2">行為管理</p>
+                                </a>
+                            </div>
+                            <div class="p3_course--title">
+                                <p class="subtitle2">我有失眠嗎？了解失眠定義與認知行為治療法</p>
+                            </div>
+                            <div class="p3_course--content">
+                                <p class="body2">
+                                    近年來，國外許多睡眠中心已經把失眠的「認知-行為治療」視作必要且首選的治療模式。2016年美國內科醫學會更建議為慢性失眠的第一線治療。透過仔細的睡眠評估，分析睡眠障礙的成因，並利用各式失眠的「認知-行為治療」的助眠行為技巧、認知調整與放鬆訓練等，來改善睡眠困擾，讓你除了藥物治療外，有另種有效的治療模式選擇。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p3_course--inner-bottom">
+                            <div class="p3_course--providers">
+                                <div class="p3_course--providers-icon">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <div class="p3_course--providers-name">
+                                    <p class="body2">吳家碩 臨床心理師</p>
+                                </div>
+                            </div>
+                            <div class="p3_course--cost">
+                                <p class="body2">NT$1500 /堂</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- teams -->
+    <div class="teams">
+        <div class="content-wrapper">
+            <div class="teams--header">
+                <p class="teams--title">值得信賴的專家團隊</p>
+                <p class="teams--subtitle">心保凝聚近百位大學教授、醫療院所專業人員團隊</p>
+            </div>
+            <div class="teams--body">
+                <div class="teams--carousels">
+                    <div class="teams--carousels-prev" onclick="prev()"><img src="/img/p3/index/replacer.png" alt="">
+                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p3_provider--wrapper">
+                                <div class="p3_provider--avatar">
+                                    <img src="../img/p3/test_providers-img-01.png" alt="">
+                                </div>
+                                <p class="p3_provider--title">臨床心理師</p>
+                                <p class="p3_provider--name">吳家碩</p>
+                                <p class="p3_provider--intro">
+                                    積極且熱情地持續向大眾推廣臨床心理服務和睡眠行為醫學。希望有更多的機會讓民眾在最具科學實徵的基礎下得到最正確的資訊，更期許民眾在臨床心理和睡眠醫學大眾教育推廣下，可以擁有更好的睡眠與生活。
+                                </p>
+                                <p class="p3_provider--skill-title">專長</p>
+                                <p class="p3_provider--skill">陪伴悲傷失落的成人、陪伴情緒困擾者穩定情緒、協助陪伴者（憂鬱症 / 焦慮症患者陪伴者、老年人陪伴者） 舒緩身心壓力
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teams--carousels-next" onclick="next()"><img src="/img/p3/index/replacer.png" alt="">
+                    </div>
+                </div>
+                <div class="teams--reserve">
+                    <a href="">立即預約一對一課程</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- reserve -->
+    <div class="reserve">
+        <div class="content-wrapper">
+            <div class="reserve--title">
+                <p>預約課程，只需簡單的四個步驟！</p>
+            </div>
+            <div class="reserve--process">
+                <div class="reserve--process-item">
+                    <img src="/img/p3/index/replacer.png" alt="">
+                    <p>尋找您喜歡的課程</p>
+                </div>
+                <div class="reserve--process-item">
+                    <img src="/img/p3/index/replacer.png" alt="">
+                    <p>填寫預約申請</p>
+                </div>
+                <div class="reserve--process-item">
+                    <img src="/img/p3/index/replacer.png" alt="">
+                    <p>心理師審核預約</p>
+                </div>
+                <div class="reserve--process-item">
+                    <img src="/img/p3/index/replacer.png" alt="">
+                    <p>完成預約，開始上課</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- promise -->
+    <div class="promise">
+        <div class="content-wrapper">
+            <div class="promise--title">
+                <p>心保承諾</p>
+            </div>
+            <div class="promise--item">
+                <p class="promise--item-title">1. 給您最安全的遠距課程環境</p>
+                <p class="promise--item-content">心保視訊平台MentalWe LIVE，是結合醫療心理專業顧問團隊所自行開發具「資訊隱私加密保護功能」之線上會議系統，架構在Amazon
+                    Web Services (AWS)上，系統具有雙重加密功能，符合「HIPAA(美國醫療資訊保護法規) 規範」，嚴密保障個人隱私性高的諮詢行為及多人線上會議，確保資訊隱私保護。</p>
+            </div>
+            <div class="promise--item">
+                <p class="promise--item-title">2. 專業師資醫療團隊</p>
+                <p class="promise--item-content">心保視訊平台MentalWe LIVE，是結合醫療心理專業顧問團隊所自行開發具「資訊隱私加密保護功能」之線上會議系統，架構在Amazon
+                    Web Services (AWS)上，系統具有雙重加密功能，符合「HIPAA(美國醫療資訊保護法規) 規範」，嚴密保障個人隱私性高的諮詢行為及多人線上會議，確保資訊隱私保護。</p>
+            </div>
+            <div class="promise--item">
+                <p class="promise--item-title">3. 遵守OOO規範</p>
+                <p class="promise--item-content">心保視訊平台MentalWe LIVE，是結合醫療心理專業顧問團隊所自行開發具「資訊隱私加密保護功能」之線上會議系統，架構在Amazon
+                    Web Services (AWS)上，系統具有雙重加密功能，符合「HIPAA(美國醫療資訊保護法規) 規範」，嚴密保障個人隱私性高的諮詢行為及多人線上會議，確保資訊隱私保護。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer--top-wrap">
+            <div class="row desktop">
+                <div class="col">
+                    <div class="footer--nav-item-title">
+                        <img src="img/footer_nav-item.svg" alt="">
+                        <p class="button-text">關於心保</p>
+                    </div>
+                    <div class="footer--nav-item-list body2">
+                        <a class="footer--nav-item" href="#">心保官方網頁</a>
+                        <a class="footer--nav-item" href="#">心保故事</a>
+                        <a class="footer--nav-item" href="#">合作夥伴</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer--nav-item-title">
+                        <img src="img/footer_nav-item.svg" alt="">
+                        <p class="button-text">知識地圖</p>
+                    </div>
+                    <div class="footer--nav-item-list body2">
+                        <a class="footer--nav-item" href="#">活動一覽</a>
+                        <a class="footer--nav-item" href="#">主題課程</a>
+                        <a class="footer--nav-item" href="#">影音課程</a>
+                        <a class="footer--nav-item" href="#">精選文章</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer--nav-item-title">
+                        <img src="img/footer_nav-item.svg" alt="">
+                        <p class="button-text">健康存摺</p>
+                    </div>
+                    <div class="footer--nav-item-list body2">
+                        <a class="footer--nav-item" href="#">長期追蹤量表</a>
+                        <a class="footer--nav-item" href="#">腕錶數據</a>
+                        <a class="footer--nav-item" href="#">體重管理</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer--nav-item-title">
+                        <img src="img/footer_nav-item.svg" alt="">
+                        <p class="button-text">一對一課程</p>
+                    </div>
+                    <div class="footer--nav-item-list body2">
+                        <a class="footer--nav-item" href="#">一對一課程主頁</a>
+                        <a class="footer--nav-item" href="#">預約一對一課程</a>
+                        <a class="footer--nav-item" href="#">課程預約管理</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer--nav-item-title">
+                        <img src="img/footer_nav-item.svg" alt="">
+                        <p class="button-text">其他</p>
+                    </div>
+                    <div class="footer--nav-item-list body2">
+                        <a class="footer--nav-item" href="#">智慧保姆專屬方案</a>
+                        <a class="footer--nav-item" href="#">購物商城</a>
+                        <a class="footer--nav-item" href="#">下載呼吸河豚</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer--link">
+                <div class="footer--soical-link">
+                    <a href="https://www.facebook.com/MentalWe/" target="_blank"><img src="img/logo-facebook.svg"></a>
+                    <a href="https://www.instagram.com/mentalwe/" target="_blank"><img src="img/logo-ins.svg"></a>
+                    <a href="https://www.youtube.com/channel/UCsNMiEfii04BMh4YEAasYUw" target="_blank"><img
+                            src="img/logo-youtube.svg"></a>
+                    <a href="https://line.me/R/ti/p/%40721vyvqx" target="_blank"><img src="img/logo-LINE.svg"></a>
+                </div>
+                <div class="footer--download">
+                    <p class="caption-text">立即下載「心保 MentalWe」體驗更多內容</p>
+                    <div class="d-flex">
+                        <a href="https://apps.apple.com/tw/app/%E5%BF%83%E4%BF%9Dmentalwe/id1547771315"
+                            target="_blank"><img src="img/App_Store.svg"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mentalwe.mentalwe&hl=zh_TW&gl=US"
+                            target="_blank"><img src="img/Google_Play.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer--info">
+                <div>
+                    <img src="img/logo_footer_white.svg" alt="">
+                </div>
+                <div class="d-flex">
+                    <div class="d-flex caption-text" style="margin-right:24px;">
+                        <p class="" style="margin-right:24px;">台北辦公室</p>
+                        <div>
+                            <p>地址：10461 台灣台北市中山區中山北路三段45號8樓</p>
+                            <p>營運時間：週一至週五 09:00~18:00</p>
+                            <p>電話：02-25997993</p>
+                        </div>
+                    </div>
+                    <div class="d-flex caption-text">
+                        <p class="" style="margin-right:24px;">台中辦公室</p>
+                        <div>
+                            <p>地址： 40308 台灣台中市西區台灣大道二段285號7樓之1</p>
+                            <p>營運時間：週一至週五 09:00~18:00</p>
+                            <p>電話：04-23215997</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer--bottom-wrap">
+            <p class="body2">心保股份有限公司 版權所有 Copyright © 2022 Mental Healthcare Co., Ltd. All Rights Reserved.</p>
+            <a class="footer--bottom-link body2" href="https://apps.mentalwe.com/service" target="_blank">服務條款</a>
+            <a class="footer--bottom-link body2" href="https://apps.mentalwe.com/privacy" target="_blank">隱私權政策</a>
+        </div>
+    </div>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+        const next = () => {
+            owl.trigger('next.owl.carousel');
+        }
+        const prev = () => {
+            owl.trigger('prev.owl.carousel');
+        }
+    </script>
+</body>
+
+</html>

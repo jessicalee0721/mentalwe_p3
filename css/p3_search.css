@@ -1,0 +1,52 @@
+@import "gobal_setting.css";
+
+/*searchformtable*/
+.expert-list--filters{
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  overflow: hidden;
+}
+
+.filter-item--row{
+  border: 1px solid var(--gray-300);
+}
+
+.filter-item--head{
+  width: 25%;
+  max-width: 158px;
+  color: white;
+  background-color: var(--primary-600);
+  padding: 16px;
+  border: 1px solid var(--gray-300);
+}
+
+.filter-item--cell{
+  padding: 16px;
+  display: flex;
+  border: 1px solid var(--gray-300);
+}
+
+.filter-button{
+  margin: 24px 0px;
+}
+
+.filter-button img{
+  margin-right: 12px;
+}
+
+.cost-filter--button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  color: var(--gray-500);
+  border: 1px solid var(--gray-500);
+  border-radius: 50px;
+}
+
+.cost-filter--button img{
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
